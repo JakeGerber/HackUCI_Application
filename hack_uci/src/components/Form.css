@@ -1,0 +1,10 @@
+#main-container {
+    width: 200px;
+    height: 500px;
+}
+
+.input-field {
+    width: 100px;
+    height: 100px;
+    background-color:purple
+}
