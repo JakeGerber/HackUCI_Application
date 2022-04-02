@@ -4,7 +4,9 @@
 }
 
 .input-field {
-    width: 100px;
-    height: 100px;
-    background-color:purple
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #000000;
 }
