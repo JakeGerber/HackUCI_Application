@@ -1,15 +1,15 @@
 import './Form.css'
 import { useState } from "react";
 import InputBox from './InputBox';
-import MovingImage from './MovingImage';
-import { ToastContainer, toast } from 'react-toastify';
 
 function Form() {
 
+    //handles the name, email, and funfact for the corresponding input boxes.
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [funfact, setFunfact] = useState("")
 
+    //Input boxes and headers.
     return (
         <div>
         <div className="main-container mobile">
@@ -42,7 +42,7 @@ function Form() {
         return (val.match(emailRegex) != null)
     }
     
-    
+    //Clear variables on send alert on successful pattern match.
     async function submitForm() {
         if (patternMatch(email)) {
             alert("Form Submitted!");

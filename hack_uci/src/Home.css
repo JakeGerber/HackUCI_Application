@@ -3,7 +3,6 @@
 }  
 
 
-
 @media (max-width : 480px) {
     .othergradient {
         background-image: linear-gradient(to bottom, #ff7b5c , #ff6c81);  
