@@ -1,12 +1,13 @@
 import './Home.css'
 import Form from "./components/Form.js"
+import MovingImage from './components/MovingImage'
 
 function Home() {
 
     return (
-    <div id = "gradient">
-        Hello!
+    <div className="gradient flex othergradient">
         <Form />
+        <MovingImage />
     </div>
     )
 }

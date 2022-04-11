@@ -1,12 +1,49 @@
-#main-container {
-    width: 200px;
-    height: 500px;
+.main-container {
+    width: 150%;
+    height: 125%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 }
 
-.input-field {
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    outline: none;
-    border: 2px solid #000000;
+@media (max-width : 480px) {
+    .mobile {
+    top: -100px;
+    position: relative;
+    margin-top: auto;
+    align-items: center;
+    left: 10%;
+
+    }
 }
+
+
+#title {
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 2%;    
+}
+
+#button {
+    width: 50%;
+    height: 40px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid #ffffff;
+    margin-left:  50%;
+    background-image: linear-gradient(to bottom, #ff7b5c , #ff6c81);
+    color: white;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: large;
+}
+

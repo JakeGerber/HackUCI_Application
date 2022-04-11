@@ -1,3 +1,21 @@
-#gradient {
-    background-image: linear-gradient(to right, #ff7b5c , #ff6c81);
+.gradient {
+    background-image: linear-gradient(to right, #ff7b5c , #ff6c81);  
 }  
+
+
+
+@media (max-width : 480px) {
+    .othergradient {
+        background-image: linear-gradient(to bottom, #ff7b5c , #ff6c81);  
+    }
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}

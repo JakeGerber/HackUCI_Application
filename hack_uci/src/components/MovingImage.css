@@ -1,0 +1,28 @@
+.movingImage {
+    margin-left: 20%;
+    width: 10%;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+    position: relative;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-delay: -2s;
+  
+}
+
+@media (max-width : 480px) {
+    .mobilemore {
+    position: relative;
+    margin-top: auto;
+    align-items: center;
+    right: 40%;
+    bottom: 20%;
+    width: 20%;
+    }
+}
+
+@keyframes moving {
+    0%   {transform: scale(1.25)}
+    50%  {transform: scale(0.5)}
+    100% {transform: scale(1.25)}
+}
+  
